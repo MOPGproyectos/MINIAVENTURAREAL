@@ -1,0 +1,91 @@
+#include<iostream>
+#include<locale.h>
+#include<math.h>
+#include<conio.h>
+#include<string.h>
+#include<windows.h>
+
+using namespace  std;
+
+char opcionesmenu [15];
+int J,P,M,G;
+int seleccion;
+
+main()
+{
+	setlocale(LC_ALL,"spanish");
+	system("color f4");
+	cout<<" __        __   _   __     _   _   1  ________   _      _     ______   __      _   _________   _     _" <<endl;
+	cout<<"|  \\      /  | |_| |  \\   | | |_|  1 |  ____  | | |    | | | |  ____| |  \\   | | |___   ___| | |   | |"  <<endl;
+	cout<<"|   \\    /   |  _  |   \\  | |  _   1 | |    | | | |    | | | | |__    |   \\  | |     | |     | |   | |"  <<endl;
+	cout<<"| |\\ \\  / /| | | | | |\\ \\ | | | |  1 | |____| | \\ \\    / / |  __|   | |\\ \\ | |    | |     | |   | |"  <<endl;
+	cout<<"| | \\ \\/ / | | | | | | \\ \\| | | |  1 |  ____  |  \\ \\  / /  | |      | | \\ \\| |    | |     | |   | |"  <<endl;
+	cout<<"| |  \\__/  | | | | | |  \\   | | |  1 | |    | |   \\ \\/ /   | |____  | |  \\   |     | |     | |___| |"     << endl;
+	cout<<"|_|        |_| |_| |_|   \\__| |_|  1 |_|    |_|    \\__/     |______| |_|   \\__|     |_|     |_______|"  << endl;
+	cout<< "_______________________________________________________________________________________________________________________\n";
+	cout<<"\n";
+	cout<<"��BIENVENIDO A... LA MISI�N !!"<<endl;
+	cout<<"Prep�rate para disfrutar de una aventura llena de acci�n:"<<endl;
+
+	cout<<"  ____________________________\n";
+	cout<<"||                            ||\n";
+	cout<<"|| MEN�                       ||\n";
+	cout<<"|| ----                       ||\n";
+	cout<<"||                            ||\n";
+	cout<<"|| - JUGAR HISTORIA           ||\n";
+	cout<<"|| - PERSONALIZACI�N          ||\n";
+	cout<<"||                            ||\n";
+	cout<<"|| - GUARDADO                 ||\n";
+	cout<<"||____________________________||\n";
+	cout<<""<<endl;
+	cout<<"(Siempre que quieras volver al men� pon la letra M en un Di�logo)\n";
+	cout<<"\n";
+	cout<<"�Qu� Quieres Hacer?"<<endl;
+	x: cin>>opcionesmenu;
+	seleccion = string(opcionesmenu).size();
+	cout<<seleccion<<endl;
+	switch (seleccion)
+		{
+		case 5: 
+		cout<<"\n";
+		cout<<" _     _   _   _____   _______   _____   _____    _   _____ \n";
+		cout<<"| |   | | |_| |  ___| |__   __| |  _  | |  _  |  |_| |  _  |\n";
+		cout<<"| |___| |  _  | |___     | |    | | | | | |_| |   _  | |_| |\n";
+		cout<<"|  ___  | | | |___  |    | |    | | | | |  __  | | | |  _  |\n";
+		cout<<"| |   | | | |  ___| |    | |    | |_| | | |  | | | | | | | |\n";
+		cout<<"|_|   |_| |_| |_____|    |_|    |_____| |_|  |_| |_| |_| |_|\n";
+		cout<<"____________________________________________________________\n";
+		cout<<"\n";
+		cout<<"Bienvenido a un mundo bastante extra�o...\n";
+		cout<<" ________________________________________"<<endl;
+		cout<<"|                                        |  "<<endl;
+		cout<<"|                                        |  "<<endl;
+		cout<<"|                                        |  "<<endl;
+		cout<<"|                                        |  "<<endl;
+		cout<<"|                                        |"<<endl;
+		cout<<"|                                 _      |"<<endl;
+		cout<<"|                                |_|     | "<<endl;
+		cout<<"|                                \\|/     |"<<endl;
+		cout<<"|                                 |      |"<<endl;
+		cout<<"|                              _ /_\\_____|"<<endl;
+		cout<<"|                              \\         |"<<endl;
+		cout<<"|                               \\        |"<<endl;
+		cout<<"|                                \\       |"<<endl;
+		cout<<"|                                 \\      |"<<endl;
+		cout<<"|                                  \\     |"<<endl;
+		cout<<"|___________________________________\\____|"<<endl;
+		break;
+		case 15: 
+		break;
+		case 4: 
+		break;
+		case 8:
+		break;
+		default: cout<<"� Elige otra opci�n :) ! \n";
+		goto x;
+    }
+}
+
+
+
+
